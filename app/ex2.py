@@ -1,12 +1,11 @@
 from sklearn import datasets, svm
-
-# Grid Search Example
-
-# Load the data set
 from sklearn.cross_validation import train_test_split
 from sklearn.grid_search import GridSearchCV
 from sklearn.metrics.metrics import classification_report
 
+# Grid Search Example
+
+# Load the data set
 digits = datasets.load_digits()
 
 n_samples = len(digits.images)
