@@ -1,6 +1,8 @@
 import numpy as np
 from sklearn import datasets, svm, cross_validation
 
+# Cross validation example
+
 # Load the data set
 digits = datasets.load_digits()
 
